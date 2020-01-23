@@ -3,9 +3,15 @@
     "description": "CiviCRM Extension CLI",
     "homepage": "https://github.com/totten/civix",
     "license": "AGPL-3.0",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ixiam/cv.git"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "civicrm/cv": "~0.2",
+        "civicrm/cv": "dev-aegir",
         "symfony/console": "~2.8",
         "symfony/process": "~2.8",
         "symfony/templating": "~2.8",
